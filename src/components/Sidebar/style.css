@@ -1,0 +1,16 @@
+.sidebar-wrapper {
+    width: 30%;
+    background-color: cadetblue;
+    position: fixed;
+    left: 0;
+    top: 150px;
+    height: calc(100% - 150px);
+    padding: 10px;
+}
+
+.sidebar-wrapper .account-info-section {
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    font-size: 120%;
+}

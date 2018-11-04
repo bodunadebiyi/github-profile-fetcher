@@ -1,0 +1,1 @@
+export const FETCH_GITHUB_ACCOUNT='https://api.github.com/users';

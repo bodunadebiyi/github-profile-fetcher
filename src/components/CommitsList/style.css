@@ -1,0 +1,52 @@
+.commits-list-wrapper {
+    overflow: scroll;
+    text-align: justify;
+    height: 100%;
+}
+
+.commits-list-wrapper > h1 {
+    margin-top: 45px;
+}
+
+.commits-list-wrapper .commits-content {
+    border: solid thin #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.commits-list-wrapper .commits-content h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Baloo Bhaijaan;
+    color: cadetblue;
+    text-align: left;
+}
+
+.commits-list-wrapper .commits-content img {
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.commits-list-wrapper .commits-content span {
+    font-weight: 700;
+}
+
+.commits-list-wrapper .back-button {
+    cursor: pointer;
+    transition: text-decoration ease-in-out .2s;
+    position: fixed;
+    background: white;
+}
+
+.commits-list-wrapper .filter-commits {
+    right: 20px;
+    position: fixed;
+    min-width: 200px;
+}
+
+.commits-list-wrapper .back-button:hover {
+    text-decoration: underline;
+}
